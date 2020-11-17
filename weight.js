@@ -6,6 +6,5 @@ var normal = (height-100) * 0.9;
 var result = weight >= normal - 5 && weight <= normal +5;
 
 result = result ? "적정 체중입니다.":"살 좀 빼세요 ^^";
-document.write(name + "님은" + result);
-document.write("표준체중 : 본인 키 - 100 * 0.9");
+document.write(name + "님은" + result); <br></br>
 
